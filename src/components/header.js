@@ -38,7 +38,7 @@ const headerAppender = (selector) => {
   // It should append the header to the element in the DOM that matches the given selector.
   //
   let attach = document.querySelector(selector)
-  attach.appendChild(Header("You Won't Believe", "That statement is false ->", "That statement  <- is true"))
+  attach.appendChild(Header("You Won't Believe", "That statement is false ->", "<- That statement is true"))
 }
 
 export { Header, headerAppender }
