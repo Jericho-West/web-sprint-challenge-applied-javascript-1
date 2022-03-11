@@ -42,6 +42,10 @@ const Card = (article) => {
   sideF.appendChild(span0)
   imgContainer.appendChild(img0)
 
+  mainDiv.addEventListener("click", function pancake (x) {
+    console.log(article.headline)
+  })
+
   return mainDiv
 }
 
